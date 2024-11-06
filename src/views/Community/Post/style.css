@@ -1,0 +1,168 @@
+#post {
+    width: 1830px;
+    height: 790px;
+    margin: 45px;
+}
+
+#post .Top,
+#post .Bottom {
+
+}
+
+#post .Top {
+    width: 780px;
+    height: 550px;
+    margin-top: 100px;
+}
+
+#post .category-tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 780px;
+    height: 30px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#post .categoryTitle {
+    width: 59px;
+    height: 16px;
+    font-size: 13px;
+}
+
+#post .categorySelectBar {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid rgba(167, 167, 167, 1);
+    text-align: center;
+    line-height: 30px;
+}
+
+#post .tagSelectBar {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid rgba(167, 167, 167, 1);
+    text-align: center;
+    line-height: 30px;
+}
+
+#post .titleHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 780px;
+    height: 30px;
+}
+
+#post .title {
+    width: 39px;
+    height: 16px;
+}
+
+#post .titleInput {
+    width: 700px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(167, 167, 167, 1);
+}
+
+#post .youtube {
+    display: flex;
+    width: 780px;
+    height: 30px;
+}
+
+#post .youtubeLink {
+    width: 65px;
+    height: 16px;
+}
+
+#post .youtubeInput {
+    width: 700px;
+    height: 30px;
+}
+
+#post .content {
+    width: 780px;
+    height: 250px;
+}
+
+#post .contentTitle {
+    width: 35px;
+    height: 16px;
+}
+
+#post .contentInput {
+    width: 700px;
+    height: 250px;
+}
+
+#post .attachment {
+    width: 500px;
+    height: 170px;
+    justify-content: flex-end;
+}
+
+#post .attachmentTitle {
+    width: 70px;
+    height: 30px;
+}
+
+#post .attachmentBottom {
+    width: 500px;
+    height: 100px;
+}
+
+#post .fileSelectBox1 {
+    display: flex;
+}
+
+#post .fileSelectBox2 {
+    display: flex;
+}
+
+#post .fileSelectBox3 {
+    display: flex;
+}
+
+#post .attachmentText {
+    width: 500px;
+    height: 30px;
+}
+
+#post .Bottom {
+    display: inline-block;
+}
+
+#post .bottomButton {
+    
+    display: flex;
+    float: right;
+    width: 210px;
+    height: 30px;
+    gap: 10px;
+}
+
+#post .uploadButton {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(167, 167, 167, 1);
+    border-radius: 4px;
+    line-height: 200%;
+}
+
+#post .cancelButton {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(167, 167, 167, 1);
+    border-radius: 4px;
+    line-height: 200%;
+}
+
+
