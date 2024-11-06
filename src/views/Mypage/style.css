@@ -1,0 +1,30 @@
+.my-modal-overlay {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+
+    position: fixed; /* 화면에 고정 */
+    top: 0; /* 화면 상단에 */
+    left: 0; /* 화면 왼쪽에 */
+    width: 100%; /* 전체 화면을 덮도록 */
+    height: 100%; /* 전체 화면을 덮도록 */
+
+    background: rgba(0, 0, 0, 0.5); /* 반투명한 배경 */
+    
+    z-index: 1000; /* 다른 요소들보다 위에 표시 */
+    pointer-events: auto; /* 클릭 이벤트 활성화 */
+}
+
+.my-modal-content {
+    display: flex;
+    flex-direction: column; /* 내부 요소들을 세로로 정렬 */
+    position: relative; /* 콘텐츠 영역 상대 위치 */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+
+    width: 800px;
+    height: 800px;
+
+    pointer-events: auto;
+}
