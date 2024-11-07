@@ -1,3 +1,19 @@
+
+
+.cal-box {
+    display: flex;
+}
+
+.cal-left {
+    width: 400px;
+    height: 200px;
+}
+
+.cal-right {
+    width: 1020px;
+    height: 200px;
+}
+
 .my-modal-overlay {
     display: flex;
     justify-content: center; /* 가로 중앙 정렬 */

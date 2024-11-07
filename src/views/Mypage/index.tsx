@@ -107,18 +107,24 @@ export default function Mypage() {
     };
 
     return (
+            
         <div id="my-wrapper">
-            {/* FullCalendar 컴포넌트 */}
-            <FullCalendar
-                plugins={[dayGridPlugin, interactionPlugin]}  // 플러그인 설정
-                initialView="dayGridMonth"  // 초기 보기 설정 (달력 형태)
-                events={events}  // 렌더링할 이벤트 리스트
-                dateClick={handleDateClick}  // 날짜 클릭 시 호출
-                eventClick={handleEventClick}  // 일정 클릭 시 호출
-                editable={true}  // 일정 드래그 및 수정 가능
-                droppable={true}  // 일정 드래그 가능
-            />
-
+            <div className='cal-box'>
+                <div className='cal-left'></div>
+                <div className='cal-right'>
+                {/* FullCalendar 컴포넌트 */}
+                    <FullCalendar
+                        plugins={[dayGridPlugin, interactionPlugin]}  // 플러그인 설정
+                        initialView="dayGridMonth"  // 초기 보기 설정 (달력 형태)
+                        events={events}  // 렌더링할 이벤트 리스트
+                        dateClick={handleDateClick}  // 날짜 클릭 시 호출
+                        eventClick={handleEventClick}  // 일정 클릭 시 호출
+                        editable={true}  // 일정 드래그 및 수정 가능
+                        droppable={true}  // 일정 드래그 가능
+                        height="auto"
+                    />
+                </div>
+            </div>
             {/* 일정 추가 모달 */}
             <Modal
                 className="my-modal-content"
